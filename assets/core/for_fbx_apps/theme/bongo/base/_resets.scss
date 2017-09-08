@@ -1,0 +1,123 @@
+.bismillah {
+  color: white;
+}
+
+::-webkit-selection {
+  color: white !important;
+  background: $theme_main_color !important;
+}
+
+::-moz-selection {
+  color: white !important;
+  background: $theme_main_color !important;
+}
+
+::-ms-selection {
+  color: white !important;
+  background: $theme_main_color !important;
+}
+
+::-o-selection {
+  color: white !important;
+  background: $theme_main_color !important;
+}
+
+::selection {
+  color: white !important;
+  background: $theme_main_color !important;
+}
+
+* {
+//  margin: 0;
+//  padding: 0;
+}
+
+body,
+html {
+  height: auto;
+
+  .snackbar.toast {
+    border-radius: 4px;
+  }
+
+  .snackbar.toast.success {
+    background-color: #4CAF50;
+  }
+
+  .snackbar.toast.error {
+    background-color: #F44336;
+  }
+}
+//html {
+//  position: relative;
+//}
+
+body {
+  //    @include transition(all 1s ease-in-out);
+  //  position: relative;
+  //    font-family: $enem_font_content_name;
+  //    font-family: sans-serif;
+  text-rendering: optimizeLegibility;
+  font-family: $theme_font_default;
+  background-color: #eee !important; //  font-size: 14px;
+  font-size: $theme_font_size_default; //    font-style: normal;
+  //    line-height: 1.428571429;
+  cursor: default;
+//  text-align: left;
+  color: $theme_black;
+}
+/** For Fix Jquery Animate **/
+//html { overflow: hidden; height: 100%; }
+//body { overflow: auto; height: 100%; }
+/*******************************/
+//p { font-size: 14px;}
+a {
+  text-decoration: none;
+  outline: none;
+
+  &:hover {
+    text-decoration: none !important;
+    outline: none;
+  }
+
+  &:visited {
+    text-decoration: none !important;
+    outline: none;
+  }
+
+  &:active {
+    outline: none;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+button {
+  outline: none;
+
+  &:hover {
+    outline: none;
+  }
+
+  &:visited {
+    outline: none;
+  }
+
+  &:active {
+    outline: none;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}

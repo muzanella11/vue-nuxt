@@ -1,0 +1,162 @@
+/******************************/
+/*****                    *****/
+/*****                   ******/
+/*****     ********************/
+/*****     ********************/
+/*****     ********************/
+/*****              ***********/
+/*****             ************/
+/*****     ********************/
+/*****     ********************/
+/*****     ********************/
+/*****     ********************/
+/*****     ********************/
+/*****     ********************/
+/******************************/
+
+/** This Place For Variable Theme **/
+$something:                                    tomato !default;
+/******************************************************/
+
+/******* For Theme Prefix ******/
+$theme_prefix_el:                              bongo !default;
+/******************************************************/
+
+/***** For Font Declaration *****/
+//$enem_path_font:                             '../fonts/' !default; // Get Path Font
+$theme_font_family_default:                    'Roboto', sans-serif;
+$theme_font_size_default:                      15px;
+
+$text-size-giga:                               16px;
+$text-size-mega:                               15px;
+$text-size-alpha:                              14px;
+$text-size-beta:                               13px;
+$text-size-gamma:                              12px;
+$text-size-delta:                              11px;
+$text-size-epsilon:                            10px;
+$text-size-zeta:                               9px;
+
+$roboto:                                       'Roboto' !default;
+$roboto-thin:                                  'RobotoThin' !default;
+$roboto-thinItalic:                            'RobotoThinItalic' !default;
+$roboto-light:                                 'RobotoLight' !default;
+$roboto-lightItalic:                           'RobotoLightItalic' !default;
+$roboto-italic:                                'RobotoItalic' !default;
+$roboto-medium:                                'RobotoMedium' !default;
+$roboto-mediumItalic:                          'RobotoMediumItalic' !default;
+$roboto-bold:                                  'RobotoBold' !default;
+$roboto-boldItalic:                            'RobotoBoldItalic' !default;
+$roboto-black:                                 'RobotoBlack' !default;
+$roboto-blackItalic:                           'RobotoBlackItalic' !default;
+/*******************************/
+
+/****** For Font Default *******/
+$theme_font_default:                      $roboto, sans-serif !default;
+$theme_font_default_2:                    'Merriweather', sans-serif !default;
+$theme_font_default_3:                    'Apercu', sans-serif !default;
+/******************************************************/
+
+/********** For Color **********/
+$lagoon:					          #02BAF2;
+$overboard:             	          #009DCD;
+$strawberry:                    	  #F84545;
+$first-blood:  	     		          #CC0000;
+$banana:              		          #FAD46B;
+$doubloon:              	          #F3BC65;
+$bruise:                	          #A88CD5;
+$sugar-plum:            	          #9175BD;
+$emerald-cove:          	          #00984F;
+$land-lubber:           	          #65BA47;
+$horizon:               	          #F58410;
+$nassua-sunset:         	          #E96300;
+$greyish-brown:                       #444444;
+$brownish-grey:                       #666666;
+$barely-white:                        #f9f9f9;
+$tersier:                             #BCCF5B;
+
+$the-black-flag:			          #364347;
+$gunpowder:					          #5E6969;
+$pieces-of-eight:  			          #666666;
+$cutlass:  					          #B2C6CD;
+$coral:  					          #D6E1E5;
+$coastal-surf:				          #E1EEF3;
+
+$inverse:               	          #FFF;
+$body-bg:                             #FFF;
+$text-color:                          #000;
+
+$theme_green_brand:                   $emerald-cove;
+$theme_green_progressbar:             $land-lubber;
+$theme_grey_aside:                    #ecf0f1;
+$theme_grey_aside_text_menu:          #c6c9ca;
+$theme_white_background:              $barely-white;
+
+$theme_purple:                        #404098;
+$theme_orange:                        #ff8431;
+$theme_orange_hover:                  #e1742b;
+$theme_orange_table_new:              #fff9f4;
+$theme_white:                         #ffffff;
+$theme_white_hover:                   #fafafa;
+$theme_black_dark:                    #444444;
+$theme_black_dark_placeholder:        rgba(68, 68, 68, 0.45);
+$theme_black_dark_submenu:            rgba(68, 68, 68, 0.35);
+$theme_black_dark_menuactive:         #332c2b;
+$theme_black:                         #333333;
+$theme_black_alpha:                   rgba(51, 51, 51, 0.45);
+$theme_grey8:                         #888888;
+$theme_grey:                          #dddddd;
+$theme_grey_line:                     #eeeeee;
+$theme_grey_italic:                   #9b9b9b;
+$theme_grey_dark:                     #aaaaaa;
+
+$theme_main_color:                    $theme_orange;
+$theme_main_color_hover:              $theme_orange_hover;
+
+$theme_second_main_color:             $theme_purple;
+
+$theme_text_color:                    $theme_black;
+$theme_main_text_title_color:         $theme_orange;
+$theme_second_text_title_color:       $theme_purple;
+$theme_btn_border:                    $theme_grey;
+$theme_accent_line:                   $theme_grey_line;
+/******************************************************/
+
+/************** Radius ***********/
+$radius_all:                            3px;
+$radius_top:                            3px 0px;
+$radius_bottom:                         0px 3px;
+$radius_none:                           0px;
+/*********************************/
+
+/************** FLOAT ************/
+$float_left:                            left;
+$float_right:                           right;
+/*********************************/
+
+/************** MARGIN or PADDING ***********/
+$margin_or_padding_none:                0px;
+$padding_for_grid:                      0 20px;
+/*********************************/
+
+/************* BOX SHADOW ***************/
+$shadow_color:                          rgba(0,0,0,0.5);
+$shadow:                                2px 2px 5px;
+/*****************************************/
+
+/************* FOR ARROW *****************/
+$border_arrow:                          15px;
+$color_arrow:                           $panel_color;
+/*****************************************/
+
+/********* For Gap All *********/
+//$theme_gap_header_to_content:             115px !default;
+//$theme_gap_header_to_content:             111px !default;
+$theme_gap_header_to_content:             131px !default;
+//$theme_gap_header_to_content_mdm:         53px !default;
+$theme_gap_header_to_content_mdm:         78px !default;
+$theme_gap_main_navigation:               17px 20px !default;
+$theme_gap_main:                          20px !default;
+$theme_gap_main_24:                       24px !default;
+//$theme_gap_widget:                        40px !default;
+$theme_gap_widget:                        20px !default;
+/******************************************************/

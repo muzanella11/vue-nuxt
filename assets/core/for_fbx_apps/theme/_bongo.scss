@@ -1,0 +1,56 @@
+/******************************/
+/*****                    *****/
+/*****                   ******/
+/*****     ********************/
+/*****     ********************/
+/*****     ********************/
+/*****              ***********/
+/*****             ************/
+/*****     ********************/
+/*****     ********************/
+/*****     ********************/
+/*****     ********************/
+/*****     ********************/
+/*****     ********************/
+/******************************/
+
+/** Namespacing **/
+/**
+  Use BEM methodology 
+  .block{}
+  .block__element{}
+  .block--modifier{}
+
+  > .block represents the high level element of the module
+  > .block__element represents a descendent of .block
+  > .block--modifier represents a different version of .block
+******************************************/
+
+/** For Global Font **/
+//@import url('https://fonts.googleapis.com/css?family=Roboto'); // Roboto
+//@import url("https://fonts.googleapis.com/css?family=Merriweather"); // Merriweather
+/*********************************/
+
+/** This Place For Variable Style **/
+@import "bongo/_variables";
+/*******************************/
+
+/** This Place For Base Style **/
+@import "bongo/_base";
+/*******************************/
+
+/** This Place For Modules Style **/
+@import "bongo/_modules";
+/*******************************/
+
+/** This Place For Layout Style **/
+@import "bongo/_layout";
+/*******************************/
+
+/** This Place For State Style **/
+@import "bongo/_state";
+/*******************************/
+
+/** This Place For Custom Style **/
+@import "bongo/_custom";
+/*******************************/

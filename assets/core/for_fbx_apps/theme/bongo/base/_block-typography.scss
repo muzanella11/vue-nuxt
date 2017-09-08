@@ -1,0 +1,86 @@
+/******************************/
+/*****                    *****/
+/*****                   ******/
+/*****     ********************/
+/*****     ********************/
+/*****     ********************/
+/*****              ***********/
+/*****             ************/
+/*****     ********************/
+/*****     ********************/
+/*****     ********************/
+/*****     ********************/
+/*****     ********************/
+/*****     ********************/
+/******************************/
+
+/** This Place For Block Typography **/
+.#{$theme_prefix_el} {
+  //
+  &.text {
+    //
+    
+    &.text__giga {
+      //
+    }
+    
+    &.text__mega {
+      //
+    }
+    
+    &.text__alpha {
+      //
+    }
+    
+    &.text__beta {
+      //
+    }
+    
+    &.text__gamma {
+      //
+    }
+    
+    &.text__delta {
+      //
+    }
+    
+    &.text__beta {
+      //
+    }
+    
+    &.text__epsilon {
+      //
+    }
+    
+    &.text__zeta {
+      //
+    }
+    
+    &.text--italic {
+      font-style: italic;
+    }
+    
+    &.text--bold {
+      font-weight: bold;
+    }
+    
+    &.text--right {
+      text-align: right;
+    }
+    
+    &.text--left {
+      text-align: left;
+    }
+    
+    &.text--center {
+      text-align: center;
+      justify-content: center;
+    }
+    
+    &.text--italic {
+      font-style: italic;
+    }
+  }
+  
+}
+/*******************************/

@@ -1,0 +1,194 @@
+/******************************/
+/*****                    *****/
+/*****                   ******/
+/*****     ********************/
+/*****     ********************/
+/*****     ********************/
+/*****              ***********/
+/*****             ************/
+/*****     ********************/
+/*****     ********************/
+/*****     ********************/
+/*****     ********************/
+/*****     ********************/
+/*****     ********************/
+/******************************/
+
+/************* fbx Choose Theme **************/
+$fbx_theme:                    default !default;
+/*********************************************/
+
+/************* fbx Project Name **************/
+$fbx_project_name:             projectName !default;
+/**********************************************/
+
+/********* Fancybox Path Image Support ***********/
+$fbx_fancybox_path_image:      '../bower_components/fancybox/source' !default;
+/**************************************************/
+
+/*************** fbx Flex Box ****************/
+$fbx_flex_ul: false !default;
+$fbx_flex_center: false !default;
+/*************************************************/
+
+/************** fbx Prefix **************/
+$fbx_prefix:                   fbx_#{$fbx_project_name}_ !default;
+
+/** For new fbx_apps **/
+/** 
+ * This variable prefix use for new fbx_apps
+ **/
+$fbx_prefix_el:                fbx !default;
+//$fbx_prefix_el:                fbx-#{$fbx_project_name}- !default;
+/****************************/
+
+/*********************************************/
+
+/** Font Setting And Gap Global **/
+$fbx_path_font:                  '../fonts/' !default; // Get Path Font
+$fbx_font_family_default:        'Roboto', sans-serif !default;
+$fbx_font_size_default:          15px;
+//$fbx_font_family_default: "Segoe UI","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif !default;
+/*************************************/
+
+/********** For Media Queries *********/
+/** For Extra Small Screen / Phone **/
+$fbx_screen_xs:            480px !default;
+$fbx_screen_xs_min:        $fbx_screen_xs !default;
+$fbx_screen_phone:         $fbx_screen_xs_min !default;
+
+/** For Small Screen / Tablet **/
+$fbx_screen_sm:            768px !default;
+$fbx_screen_sm_min:        $fbx_screen_sm !default;
+$fbx_screen_tablet:        $fbx_screen_sm_min !default;
+
+/** For Medium Screen / Desktop **/
+$fbx_screen_md:            992px !default;
+$fbx_screen_md_min:        $fbx_screen_md !default;
+$fbx_screen_medium:        $fbx_screen_md_min !default;
+
+/** For Large Screen / Wide Desktop **/
+$fbx_screen_lg:            1200px !default;
+$fbx_screen_lg_min:        $fbx_screen_lg !default;
+$fbx_screen_large:         $fbx_screen_lg_min !default;
+
+/** For Screen Max **/
+$fbx_screen_xs_max:              ($fbx_screen_sm_min - 1) !default;
+$fbx_screen_sm_max:              ($fbx_screen_md_min - 1) !default;
+$fbx_screen_md_max:              ($fbx_screen_lg_min - 1) !default;
+/**************************************/
+
+/************** Theme Color **************/
+/* Here >>>>>
+/*********************************************/
+
+/************** COLOR and FONT ************/
+$main_blue:                         #365D98;
+$white:                             white;
+$red:                               #EF5350;
+$green:                             #26A69A;
+$blue:                              #42A5F5;
+$green_icon_box:                    #1BBC9B;
+$red_icon_box:                      #F3565D;
+$blue_icon_box:                     #89C4F4;
+$grey_icon_box:                     #C6C6C6;
+$gold_icon_box:                     #DEB743;
+$green_soft_icon_box:               #47B6AE;
+$purple_icon_box:                   #BD0DBD;
+
+$panel_color:                           #F9F9F9;
+$panel_border_color:                    #D9D9D9;
+$font_color_header:                     #9AAECC;
+$font_header:                           1.5em;
+$menu_active_or_hover_background:       rgba(66, 165, 245, 0.1);
+$menu_active_or_hover_font_color:       rgb(66, 165, 245);
+
+$fbx_red:                          #F44336;
+$fbx_pink:                         #E91E63;
+$fbx_purple:                       #9C27B0;
+$fbx_deep_purple:                  #673AB7;
+$fbx_indigo:                       #3F51B5;
+$fbx_blue:                         #2196F3;
+$fbx_blue_info:                    #0091EA;
+$fbx_light_blue:                   #03A9F4;
+$fbx_cyan:                         #00BCD4;
+$fbx_teal:                         #009688;
+$fbx_green:                        #4CAF50;
+$fbx_green_success:                #00C853;
+$fbx_light_green:                  #8BC34A;
+$fbx_lime:                         #CDDC39;
+$fbx_yellow:                       #FFEB3B;
+$fbx_amber:                        #FFC107;
+$fbx_amber_warning:                #FFAB00;
+$fbx_orange:                       #FF9800;
+$fbx_deep_orange:                  #FF5722;
+$fbx_brown:                        #795548;
+$fbx_grey:                         #9E9E9E;
+$fbx_blue_grey:                    #607D8B;
+$fbx_navbar_color:                 #00bfbf;
+$fbx_sidebar_color:                #38c1c1;
+$fbx_body_color:                   #e9ebee;
+$fbx_border_color:                 #e1e2e3;
+$fbx_panel_txt_color:              $fbx_navbar_color;
+
+$fbx_container_profile_side:       #ff8d78;
+$fbx_logo_link_hover_color:        #ffeb3b;
+$fbx_sidebar_hover_color:          darken($fbx_sidebar_color, 10%);
+$fbx_btn_account_active_color:     #06b1b1;
+
+$fbx_btn_default_color:            $fbx_grey;
+$fbx_btn_primary_color:            $fbx_navbar_color;
+$fbx_btn_success_color:            $fbx_green_success;
+$fbx_btn_info_color:               $fbx_blue_info;
+$fbx_btn_warning_color:            $fbx_amber_warning;
+$fbx_btn_danger_color:             $fbx_red;
+$fbx_btn_border_color:             rgba(0,0,0,0.08);
+/*********************************/
+
+/************** Radius ***********/
+$radius_all:3px;
+$radius_top:3px 0px;
+$radius_bottom: 0px 3px;
+$radius_none:0px;
+/*********************************/
+
+/************** FLOAT ************/
+$float_left:left;
+$float_right:right;
+/*********************************/
+
+/************** MARGIN or PADDING ***********/
+$margin_or_padding_none: 0px;
+$padding_for_grid:0 20px;
+/*********************************/
+
+/************* BOX SHADOW ***************/
+$shadow_color:rgba(0,0,0,0.5);
+$shadow:2px 2px 5px;
+/*****************************************/
+
+/************* FOR ARROW *****************/
+$border_arrow: 15px;
+$color_arrow:$panel_color;
+/*****************************************/
+
+/********** FOR PREFIX BROWSER ***********/
+$webkit: -webkit-;
+$moz: -moz-;
+$ms: -ms-;
+/*****************************************/
+
+/******** This for fbx Burger ********/
+/** fbx Burger Component Default **/
+$fbx_burger_add_vendor_prefixes: true !default;
+$fbx_burger_width:         20px !default;
+//$fbx_burger_height:        2px !default;
+$fbx_burger_height:        3px !default;
+//$fbx_burger_gap:           3px !default;
+$fbx_burger_gap:           5px !default;
+//$fbx_burger_color:         #000 !default;
+$fbx_burger_color:         #fff !default;
+$fbx_border_radius:        0 !default;
+$fbx_transition_duration:  .3s !default;
+$fbx_component_burger:     ($fbx_burger_width, $fbx_burger_height, $fbx_burger_gap, $fbx_burger_color, $fbx_border_radius, $fbx_transition_duration);
+/**************************************/
