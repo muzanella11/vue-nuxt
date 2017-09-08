@@ -1,4 +1,4 @@
-# bb_dashboard_panel
+# Vue + Nuxt.js
 
 > Nuxt.js + Vuetify.js project
 
